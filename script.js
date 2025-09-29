@@ -39,7 +39,9 @@ button.addEventListener("click", function () {
     // change text here
 });
 */
-
+const btn2=document.getElementById("t2-btn");
+const status2=document.getElementById("t2-status");
+btn2.addEventListener("click",()=>{status2.textContent="You clicked the Reavel Note button"});
 /*  
 =======================================
 TODO3: Inspiring Quote Board
